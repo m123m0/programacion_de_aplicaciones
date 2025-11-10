@@ -1,0 +1,7 @@
+{
+  "name": "sumativa1muz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
