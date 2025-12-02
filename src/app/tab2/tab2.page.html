@@ -1,17 +1,50 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-title>Nuevo incidente</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <form [formGroup]="form">
+
+    <ion-item>
+      <ion-label position="floating">Tipo</ion-label>
+      <ion-input formControlName="tipo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Equipo</ion-label>
+      <ion-input formControlName="equipo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Descripción</ion-label>
+      <ion-textarea formControlName="descripcion"></ion-textarea>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Prioridad</ion-label>
+      <ion-select formControlName="prioridad">
+        <ion-select-option value="Alta">Alta</ion-select-option>
+        <ion-select-option value="Media">Media</ion-select-option>
+        <ion-select-option value="Baja">Baja</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Estado</ion-label>
+      <ion-select formControlName="estado">
+        <ion-select-option value="Abierto">Abierto</ion-select-option>
+        <ion-select-option value="En progreso">En progreso</ion-select-option>
+        <ion-select-option value="Cerrado">Cerrado</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-button expand="block" class="ion-margin-top" (click)="guardar()">
+      Guardar
+    </ion-button>
+
+  </form>
+
 </ion-content>
