@@ -1,0 +1,129 @@
+PS C:\sumativa1muz\android> .\gradlew signingReport
+
+> Configure project :app
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-cordova-android-plugins
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Task :app:signingReport
+Variant: debug
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+SHA1: 00:07:E7:EE:66:1F:C6:18:67:69:60:AA:60:51:85:0C:F7:4D:20:C3
+SHA-256: 97:DC:4B:40:DD:59:FE:DF:1F:34:99:63:A7:6A:55:9D:FE:2A:73:FF:24:0E:7D:E4:6F:D3:37:EB:E2:0C:3C:FB
+Valid until: mi├®rcoles, 8 de diciembre de 2055
+----------
+Variant: release
+Config: null
+Store: null
+Alias: null
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+SHA1: 00:07:E7:EE:66:1F:C6:18:67:69:60:AA:60:51:85:0C:F7:4D:20:C3
+SHA-256: 97:DC:4B:40:DD:59:FE:DF:1F:34:99:63:A7:6A:55:9D:FE:2A:73:FF:24:0E:7D:E4:6F:D3:37:EB:E2:0C:3C:FB
+Valid until: mi├®rcoles, 8 de diciembre de 2055
+----------
+
+> Task :capacitor-android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+SHA1: 00:07:E7:EE:66:1F:C6:18:67:69:60:AA:60:51:85:0C:F7:4D:20:C3
+SHA-256: 97:DC:4B:40:DD:59:FE:DF:1F:34:99:63:A7:6A:55:9D:FE:2A:73:FF:24:0E:7D:E4:6F:D3:37:EB:E2:0C:3C:FB
+Valid until: mi├®rcoles, 8 de diciembre de 2055
+----------
+
+> Task :capacitor-app:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+SHA1: 00:07:E7:EE:66:1F:C6:18:67:69:60:AA:60:51:85:0C:F7:4D:20:C3
+SHA-256: 97:DC:4B:40:DD:59:FE:DF:1F:34:99:63:A7:6A:55:9D:FE:2A:73:FF:24:0E:7D:E4:6F:D3:37:EB:E2:0C:3C:FB
+Valid until: mi├®rcoles, 8 de diciembre de 2055
+----------
+
+> Task :capacitor-cordova-android-plugins:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+SHA1: 00:07:E7:EE:66:1F:C6:18:67:69:60:AA:60:51:85:0C:F7:4D:20:C3
+SHA-256: 97:DC:4B:40:DD:59:FE:DF:1F:34:99:63:A7:6A:55:9D:FE:2A:73:FF:24:0E:7D:E4:6F:D3:37:EB:E2:0C:3C:FB
+Valid until: mi├®rcoles, 8 de diciembre de 2055
+----------
+
+> Task :capacitor-haptics:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+SHA1: 00:07:E7:EE:66:1F:C6:18:67:69:60:AA:60:51:85:0C:F7:4D:20:C3
+SHA-256: 97:DC:4B:40:DD:59:FE:DF:1F:34:99:63:A7:6A:55:9D:FE:2A:73:FF:24:0E:7D:E4:6F:D3:37:EB:E2:0C:3C:FB
+Valid until: mi├®rcoles, 8 de diciembre de 2055
+----------
+
+> Task :capacitor-keyboard:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+SHA1: 00:07:E7:EE:66:1F:C6:18:67:69:60:AA:60:51:85:0C:F7:4D:20:C3
+SHA-256: 97:DC:4B:40:DD:59:FE:DF:1F:34:99:63:A7:6A:55:9D:FE:2A:73:FF:24:0E:7D:E4:6F:D3:37:EB:E2:0C:3C:FB
+Valid until: mi├®rcoles, 8 de diciembre de 2055
+----------
+
+> Task :capacitor-status-bar:signingReport
+Variant: debugAndroidTest
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Variant: debugAndroidTest
+Config: debug
+Variant: debugAndroidTest
+Variant: debugAndroidTest
+Config: debug
+Variant: debugAndroidTest
+Variant: debugAndroidTest
+Config: debug
+Variant: debugAndroidTest
+Variant: debugAndroidTest
+Config: debug
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Variant: debugAndroidTest
+Config: debug
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Mat├¡as\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 11:8D:46:A5:3A:8B:E3:E5:65:67:97:6E:86:3E:28:2A
+SHA1: 00:07:E7:EE:66:1F:C6:18:67:69:60:AA:60:51:85:0C:F7:4D:20:C3
+SHA-256: 97:DC:4B:40:DD:59:FE:DF:1F:34:99:63:A7:6A:55:9D:FE:2A:73:FF:24:0E:7D:E4:6F:D3:37:EB:E2:0C:3C:FB
+Valid until: mi├®rcoles, 8 de diciembre de 2055
+----------
+
+BUILD SUCCESSFUL in 1s

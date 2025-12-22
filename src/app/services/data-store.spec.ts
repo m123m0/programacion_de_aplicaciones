@@ -1,16 +1,15 @@
 import { TestBed } from '@angular/core/testing';
+import { DataStoreService } from './data-store.service';
 
-import { DataStore } from './data-store';
-
-describe('DataStore', () => {
-  let service: DataStore;
+describe('DataStoreService', () => {
+  let service: DataStoreService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(DataStore);
+    service = TestBed.inject(DataStoreService);
   });
 
-  it('should be created', () => {
+  it('debe crearse correctamente', () => {
     expect(service).toBeTruthy();
   });
 });

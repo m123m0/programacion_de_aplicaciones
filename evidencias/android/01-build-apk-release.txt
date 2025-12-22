@@ -1,0 +1,12 @@
+PS C:\sumativa1muz> cd C:\sumativa1muz\android
+PS C:\sumativa1muz\android> .\gradlew assembleRelease
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+
+> Configure project :app
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-cordova-android-plugins
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+BUILD SUCCESSFUL in 21s
+267 actionable tasks: 13 executed, 254 up-to-date
